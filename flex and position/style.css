@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color:#120906;
+  color: #f0a099;
+}
+.logo {
+  padding-left: 20px;
+}
+.nav {
+  padding: 14px;
+}
+.parent {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 698px;
+  background-image: url(berlinbckgrnd.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h3 {
+  font-size: 22pt;
+  font-family: Poppins;
+  font-weight: 800;
+  color: #debfbd;
+  justify-self: right;
+}
+p {
+  font-size: 17pt;
+  font-family: Inter;
+  font-weight: 600;
+  color: #debfbd;
+  margin-top: 6px;
+  margin-left: 75px;
+  margin-right: 65px;
+}
+.child {
+  padding-top: 10px;
+  width: 10%;
+  box-sizing: border-box;
+  border-spacing: 100px;
+}
+button {
+  justify-self: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  width: 150px;
+  height: 50px;
+  padding-right: 10px;
+  background-color: rgba(28, 16, 11, 1);
+  color: rgba(222, 191, 189, 1);
+  font-family: Poppins;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(28, 16, 11, 0.7);
+  color: rgba(222, 191, 189, 0.7);
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  color: #f0a099;
+  margin-inline: 10px;
+  text-decoration: none;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+.context span {
+  color: #f0a099;
+}
